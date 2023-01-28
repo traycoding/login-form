@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+*{
+     font-family: 'Roboto Slab', serif;
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     list-style-type: none;
+     border: none;
+     outline: none;
+     text-decoration: none;
+}
+.container{
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+     padding-bottom: 60px;
+     background-color: #eee;
+}
+.container .content{
+     text-align: center;
+     text-transform: capitalize;
+}
+.container .content h3{
+     color: #888;
+}
+.container .content h3 span{
+     background-color: crimson;
+     color: #fff;
+     padding: 0 15px;
+     border-radius: 5px;
+}
+.container .content h1{
+     padding: 10px;
+}
+.container .content p{
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #888;
+}
+.container .content .btn{
+     display: inline-block;
+     padding: 10px 30px;
+     background: #333;
+     color: #fff;
+     margin: 0 5px;
+}
+.container .content .btn:hover{
+     background: crimson;
+}
+.form-container{
+     min-height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px;
+     padding-bottom: 60px;
+     background: #eee;
+}
+.form-container form{
+     width: 500px;
+     padding: 20px;
+     box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, 0.174);
+     text-align: center;
+     background: #fff;
+     border-radius: 5px;
+}
+.form-container form h3{
+     color: #555;
+     text-transform: uppercase;
+     font-size: 30px;
+     margin-bottom: 10px;
+}
+.form-container form input,
+select{
+     width: 100%;
+     padding: 10px 15px;
+     font-size: 17px;
+     background: #eee;
+     margin: 8px 0;
+}
+.form-container form .form-btn{
+     background-color: #fbd0d9;
+     color: crimson;
+     cursor: pointer;
+}
+.form-container form .form-btn:hover{
+     background-color: crimson;
+     color: #fff;
+}
+.form-container form p{
+     font-size: 17px;
+     color: #555;
+}
+.form-container form p a{
+     color: crimson;
+}
+.form-container form .error-msg{
+     margin: 10px 0;
+     display: block;
+     background-color: crimson;
+     border-radius: 5px;
+     color: #fff;
+     font-size: 20px;
+     padding: 10px;
+}
